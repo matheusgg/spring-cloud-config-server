@@ -1,0 +1,16 @@
+spring:
+  application.name: spring-cloud-config-server
+  cloud:
+    config:
+      fail-fast: true
+      server:
+        bootstrap: true
+        git:
+          uri: https://github.com/matheusgg/Spring-Cloud-Config.git
+          clone-on-start: true
+#          basedir: /Users/matheus.goes/Downloads/config
+          force-pull: true
+eureka:
+  client:
+    enabled: false
+    fetch-registry: false
