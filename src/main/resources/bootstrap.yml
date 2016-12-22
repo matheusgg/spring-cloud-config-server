@@ -10,7 +10,3 @@ spring:
           clone-on-start: true
 #          basedir: /Users/matheus.goes/Downloads/config
           force-pull: true
-eureka:
-  client:
-    enabled: false
-    fetch-registry: false
